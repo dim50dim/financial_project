@@ -11,6 +11,20 @@ const Navbar = () => {
             <div className="hamburger">
                      <FaBars/>
             </div>
+            <ul className='nav-menu'>
+                   <li className="nav-item">
+                         <a href="/">Home</a>
+                   </li>
+                   <li className="nav-item">
+                         <a href="/">About</a>
+                   </li>
+                   <li className="nav-item">
+                         <a href="/">Testimonials</a>
+                   </li>
+                   <li className="nav-item">
+                         <a href="/">Demo</a>
+                   </li>
+            </ul>
       </nav>
     </div>
   )

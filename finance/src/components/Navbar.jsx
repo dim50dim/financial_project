@@ -1,8 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import logo from "./images/logo.png"
 import {FaBars, FaTimes} from "react-icons/fa";
 import "./Navbar.css"
 const Navbar = () => {
+ 
+  const [click, setClick] = useState(false);
+  const handleClick = () => setClick(!click);
   return (
     <div className='header'>
       <nav className="navbar">
@@ -10,7 +13,7 @@ const Navbar = () => {
            <img src={logo} alt="logo" />
         </a>
             <div className="hamburger">
-                     <FaBars/>
+                     <FaBars size={30} style={{ color:"#ffffff"}} />
             </div>
             <ul className='nav-menu'>
                    <li className="nav-item">

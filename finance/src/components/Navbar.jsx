@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from "./images/logo.png"
 import {FaBars, FaTimes} from "react-icons/fa";
+import "./Navbar.css"
 const Navbar = () => {
   return (
     <div className='header'>

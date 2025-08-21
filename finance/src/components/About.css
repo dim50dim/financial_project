@@ -34,25 +34,29 @@
     font-weight: 600;
 }
 
-.about button{
+.about button {
     margin-top: 1rem;
-
 }
 
-@media  screen and(max-width:940px){
-
-.about .container{
-    grid-template-columns: 1fr;
-}
-    .about .container{
-
-    width: 100%;
+@media screen and (max-width:940px) {
+    .about .container {
+        grid-template-columns: 1fr;
     }
-    .about .container img{
-        padding: 1rem;
+
+    .about .container {
+        width: 100%;
+    }
+
+    .about .container img {
+        padding: 0rem;
         width: 90vw;
     }
-    .about .container .col-2{
+
+    .about .container .col-2 {
         padding: 0;
+    }
+
+    .about button {
+        margin-bottom: 1rem;
     }
 }

@@ -29,4 +29,20 @@
 
 .demo .col-1 p:nth-child(3){
     font-size: 1.2;
+    margin-bottom: 1rem;
+}
+
+.demo .col-2{
+    margin: auto;
+}
+
+@media  screen and(max-width: 940px) {
+     .demo .container{
+        max-width: 100%;
+        grid-template-columns: 1fr;
+     }
+     .demo iframe{
+        width: 100%;
+        height: auto;
+     }
 }

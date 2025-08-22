@@ -1,21 +1,22 @@
-.footer{
+.footer {
     width: 100%;
     background-color: #000;
-    color:#eee;
+    color: #eee;
     padding: 3rem 1rem;
-
 }
 
-.footer .container{
+.footer .container {
     max-width: 1240px;
     margin: auto;
     text-align: center;
 }
-.footer ul{
+
+.footer ul {
     display: flex;
     justify-content: center;
 }
-.footer li{
+
+.footer li {
     padding: 1rem;
 }
 
@@ -28,10 +29,11 @@
     border-bottom: 3px solid var(--secondary-color);
 }
 
-.bottom{
+.bottom {
     text-align: center;
     padding-top: 3rem;
 }
-.line{
+
+.line {
     margin-bottom: 1rem;
 }

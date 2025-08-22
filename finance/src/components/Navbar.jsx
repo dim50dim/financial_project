@@ -5,6 +5,7 @@ import "./Navbar.css"
 const Navbar = () => {
  
   const [click, setClick] = useState(false);
+  const closeMenu = () => setClick(false)
   const handleClick = () => setClick(!click);
   return (
     <div className='header' id='navbar'>
@@ -20,16 +21,16 @@ const Navbar = () => {
             </div>
             <ul className={click ? "nav-menu active" : "nav-menu"} >
                    <li className="nav-item">
-                         <a href="#home">Home</a>
+                         <a href="#home" onClick={closeMenu}>Home</a>
                    </li>
                    <li className="nav-item">
-                         <a href="#about">About</a>
+                         <a href="#about" onClick={closeMenu}>About</a>
                    </li>
                    <li className="nav-item">
-                         <a href="#testimonials">Testimonials</a>
+                         <a href="#testimonials" onClick={closeMenu}>Testimonials</a>
                    </li>
                    <li className="nav-item">
-                         <a href="#demo">Demo</a>
+                         <a href="#demo" onClick={closeMenu}>Demo</a>
                    </li>
             </ul>
       </nav>

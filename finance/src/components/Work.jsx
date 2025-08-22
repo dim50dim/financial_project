@@ -5,11 +5,19 @@ const Work = () => {
     <div id='work' >
            {/* Container  */}
            <div className='max-w-[1240px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+             
                 <div className='w-full grid grid-cols-2 sm:grid-cols-4 text-center py-8'>
                      <div className='shadow-md  hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto'  src={logo1} alt="" />
+                        <img className='w-full h-auto'  src={logo1} alt="" />
                      </div>
-                </div>
+                 </div>
+         
+                <div className='w-full grid grid-cols-2 sm:grid-cols-4 text-center py-8'>
+                     <div className='shadow-md  hover:scale-110 duration-500'>
+                        <img className='w-full h-auto'  src={logo1} alt="" />
+                     </div>
+                 </div>
+         
            </div>
     </div>
   )

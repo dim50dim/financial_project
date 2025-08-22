@@ -2,6 +2,19 @@
 
 @tailwind utilities;
 
+ .content-div{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+ }
+ .content-div:hover{
+  background-image: linear-gradient(
+    to right,
+    hsla(242,74%)
+  );
+ }
+
 :root {
   --primary-color: #5bb462;
   --primary-dark: #4f9c55;

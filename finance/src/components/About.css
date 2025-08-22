@@ -120,11 +120,11 @@
     .about button {
         margin-bottom: 1rem;
     }
-}
-
-/* Ensure all images scale */
-img {
+      img {
     max-width: 100%;
     height: auto;
     display: block;
 }
+}
+
+/* Ensure all images scale */
